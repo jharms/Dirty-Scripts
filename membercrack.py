@@ -10,7 +10,7 @@ sys.setdefaultencoding('utf8')
 
 if len(sys.argv) < 3:
 	print "\nUsage: membercrack.py hashfile wordlist." 
-	print "Make sure each line in the wordlist looks like:"
+	print "Make sure each line in the hashfile looks like:"
 	print "<base64 encoded hash>:<base64 encoded salt> <- default"
 	quit()
 
